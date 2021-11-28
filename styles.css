@@ -1,0 +1,126 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@500&display=swap');
+
+body {
+    margin: 0;
+    background-color: #141c2f;
+    display: grid;
+    place-items: center;
+    height: 100vh;
+    font-family: 'Quicksand', sans-serif;
+    color: white;
+}
+
+#main {
+    width: 50%;
+    background-color: #1f2a48;
+    height: 500px;
+    border-radius: 20px;
+    display: grid;
+    grid-template-columns: 30% 70%;
+}
+
+#avatar {
+    border-radius: 50%;
+    width: 150px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 50px;
+}
+
+#Name {
+    color: white;
+    font-size: 40px;
+    margin-top: 50px;
+    margin-bottom: 0px;
+}
+
+#login {
+    margin: 0;
+    color: #0a4c9d;
+}
+
+#bio {
+    color: gray;
+}
+
+.liczby {
+    width: 90%;
+    background-color: #141c2f;
+    color: white;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    align-items: center;
+    border-radius: 10px;
+    height: 100px;
+    margin-top: 15px;
+}
+
+.liczby div {
+    padding-left: 40px;
+    text-align: left;
+    color: gray;
+    font-size: 12px;
+}
+
+.liczby p {
+    text-align: left;
+    margin-bottom: 0;
+    color: white;
+    font-size: 20px;
+    margin-top: 3px;
+}
+
+#search {
+    width: 50%;
+    height: 80px;
+    background-color: #1f2a48;
+    border-radius: 20px;
+    margin-bottom: 20px;
+    display: grid;
+    grid-template-columns: 0.8fr 0.2fr;
+}
+
+#searching {
+    background-color: transparent;
+    border: none;
+    border-radius: 20px;
+    margin: 10px;
+    font-size: 30px;
+    color: white;
+}
+
+#searching[type=text] {
+    padding-left: 20px;
+}
+
+#searching:focus {
+    outline: none;
+}
+
+#searchbtn {
+    margin: 10px;
+    border-radius: 10px;
+    border: none;
+    font-size: 20px;
+    color: white;
+    background-color: #0179ff;
+}
+
+#searchbtn:hover{
+    background-color: white;
+    color: black;
+    cursor: pointer;
+}
+
+.holder {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+footer {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin-top: 30px;
+}

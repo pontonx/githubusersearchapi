@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="api.js"></script>
+    <script src="https://code.jquery.com/jquery-3.6.0.js" integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk=" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+     <div class="holder">
+        <section id="search">
+            <input type="text" placeholder="Search GitHub username..." id="searching">
+            <button id="searchbtn">SEARCH</button>
+        </section>
+        <section id="main">
+            <img src="" id="avatar">
+            <div class="container">
+                <h1 id="Name"></h1>
+                <p id="login"></p>
+                <p id="bio"></p>
+                <div class="liczby">
+                    <div>
+                        Repos
+                        <p id="repos"></p>
+                    </div>
+                    <div>
+                        Followers
+                        <p id="followers"></p>
+                    </div>
+                    <div>
+                        Following
+                        <p id="following"></p>
+                    </div>
+                </div>
+                <footer>
+                    <p id="location"></p>
+                    <p id="twitter"></p>
+                    <p id="blog"></p>
+                    <p id="company"></p>
+                </footer>
+            </div>
+        </section>
+     </div>
+    <script src="api.js"></script>
+</body>
+</html>
